@@ -1,4 +1,4 @@
-module.exports.show = function(){
+module.exports.show = function () {
     console.log("Output Showed")
 }
 

@@ -1,12 +1,12 @@
 //Basics of time control example
 
 
-    /*var dt = new Date()
+/*var dt = new Date()
 
 console.log("Started")
 
 for( i=0; i<100; i++){
-    console.log("Loop")
+console.log("Loop")
 }
 
 console.log("Ended")
@@ -40,20 +40,20 @@ console.log("Ended")*/
 
 //asynchronous
 
-function showEnd(){
+function showEnd() {
     console.log("Ended")
 }
 
 
 
 console.log("Started")
-setTimeout(showEnd,2000)
+setTimeout(showEnd, 2000)
 
 
 console.log("Started")
-setTimeout(showEnd,4000)
+setTimeout(showEnd, 4000)
 
 
 
 console.log("Started")
-setTimeout(showEnd,6000)
+setTimeout(showEnd, 6000)

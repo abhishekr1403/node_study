@@ -10,4 +10,6 @@ http.createServer (function(req,res){
         res.end()
 
     })
-}).listen(7000)
+}).listen(7000, function(){
+    console.log("Server started")
+})
