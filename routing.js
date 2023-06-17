@@ -33,9 +33,12 @@ http.createServer(function (req, res) {
         res.end()
         
     }else {
-        res.writeHead(404, { 'Content-Type': 'text/html' })
-        res.write('Error')
-        res.end()
+
+        fs.readFile('mock.html', function(err, data){
+            res.writeHead(404, { 'Content-Type': 'text/html' })
+            res.write(data)
+            res.end()
+        })
     }
 
 
